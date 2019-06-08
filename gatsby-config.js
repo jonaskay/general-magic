@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `General Magic in Helsinki`,
+    location: "Korjaamo, August 2019",
+    description: `General Magic, a widely acclaimed tech documentary, gets a private screening in Helsinki in August.`,
+    author: `@jonaskaypink`, // TODO: Change author
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
