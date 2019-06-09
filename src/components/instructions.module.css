@@ -1,0 +1,12 @@
+.instructions {
+  width: var(--width-text);
+}
+
+.instructions > p:first-child {
+  font-size: var(--text-lg);
+}
+
+.instructions > p:last-child {
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+}

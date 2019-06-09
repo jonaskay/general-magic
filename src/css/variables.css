@@ -1,0 +1,26 @@
+:root {
+  --width-default: 1024px;
+  --width-text: 560px;
+
+  --spacing-xs: .5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 4rem;
+
+  --background: #212529;
+
+  --text-primary: #f8f9fa;
+  --text-secondary: #ced4da;
+  --text-highlight: #fcc419;
+  --text-link: #74c0fc;
+
+  --text-xs: 75%;
+  --text-sm: 87.5%;
+  --text-md: 100%;
+  --text-lg: 112.5%;
+  --text-xl: 125%;
+
+  --font-normal: 400;
+  --font-bold: 700;
+}

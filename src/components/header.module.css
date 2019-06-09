@@ -1,0 +1,57 @@
+@import "../css/variables.css";
+
+.header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.fade {
+  background: linear-gradient(transparent, var(--background));
+  height: calc(2 * var(--spacing-xl));
+  position: relative;
+  z-index: 1;
+}
+
+.inner {
+  padding: var(--spacing-xl) var(--spacing-lg) 0;
+  position: relative;
+  z-index: 1;
+}
+
+.heading {
+  color: var(--text-highlight);
+  display: inline-block;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.heading > span {
+  display: block;
+}
+
+.heading > span:first-child {
+  --spacing: 1rem;
+  letter-spacing: var(--spacing);
+  margin-right: calc(-1 * var(--spacing));
+}
+
+.heading > span:last-child {
+  --spacing: 1.5rem;
+  font-size: 150%;
+  letter-spacing: var(--spacing);
+  margin-right: calc(-1 * var(--spacing));
+}
+
+.subheading {
+  --spacing: .1rem;
+  color: var(--text-primary);
+  font-size: 2.25rem;
+  letter-spacing: var(--spacing);
+  margin-right: calc(-1 * var(--spacing));
+}
+
+.subheading > span {
+  color: var(--text-highlight);
+}

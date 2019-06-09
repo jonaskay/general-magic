@@ -1,0 +1,7 @@
+.info {
+  display: flex
+}
+
+.description {
+  margin-left: var(--spacing-sm);
+}

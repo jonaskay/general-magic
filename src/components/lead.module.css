@@ -1,0 +1,15 @@
+.lead {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+}
+
+.lead > p:first-child {
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+}
+
+.lead > p:last-child {
+  color: var(--gray-4);
+  font-size: var(--text-sm);
+}

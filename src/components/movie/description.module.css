@@ -1,0 +1,17 @@
+.aside {
+  font-size: var(--text-xs);
+  text-align: left;
+}
+
+.aside > h4 {
+  font-size: var(--text-lg);
+  margin-bottom: var(--spacing-xs);
+}
+
+.aside > p {
+  margin: var(--spacing-xs) 0;
+}
+
+.aside > p:last-child {
+  color: var(--text-secondary);
+}

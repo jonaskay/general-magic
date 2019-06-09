@@ -1,0 +1,28 @@
+@import "../css/variables.css";
+
+.main {
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-top: calc(-1 * var(--spacing-xl));
+  padding: var(--spacing-lg);
+  padding-top: 0;
+  position: relative;
+  width: var(--width-default);
+  z-index: 1;
+}
+
+.lead {
+  margin: 0 auto;
+  text-align: center;
+  width: var(--width);
+}
+
+.lead > p:first-child {
+  font-size: var(--text-lg);
+  font-weight: var(--font-bold);
+}
+
+.lead > p:last-child {
+  color: var(--gray-4);
+  font-size: var(--text-sm);
+}
