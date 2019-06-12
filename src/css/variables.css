@@ -1,4 +1,8 @@
 :root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 640px;
+  --breakpoint-mobile: 320px;
+
   --width-default: 1024px;
   --width-text: 560px;
 

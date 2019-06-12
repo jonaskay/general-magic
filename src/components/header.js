@@ -7,7 +7,7 @@ import Quote from "./quote"
 const Header = () => (
   <header className={headerStyles.header}>
     <Background />
-    <div className={headerStyles.grid}>
+    <div className={headerStyles.inner}>
       <aside className={headerStyles.column}>
         <ul>
           <li>

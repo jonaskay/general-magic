@@ -18,9 +18,10 @@ const Background = () => (
       }
     `}
     render={data => (
-      <div className={backgroundStyles.background}>
-        <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-      </div>
+      <Img
+        fluid={data.placeholderImage.childImageSharp.fluid}
+        className={backgroundStyles.background}
+      />
     )}
   />
 )

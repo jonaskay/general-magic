@@ -13,18 +13,18 @@
   z-index: 1;
 }
 
-.grid {
-  display: flex;
+.inner {
   margin: 0 auto;
-  padding: var(--spacing-xl) var(--spacing-md) 0;
+  max-width: var(--width-default);
+  padding: var(--spacing-md);
+  padding-bottom: 0;
   position: relative;
-  width: var(--width-default);
+  width: 100%;
   z-index: 1;
 }
 
 .column {
   box-sizing: border-box;
-  width: 46%;
 }
 
 .column > ul {
@@ -33,42 +33,65 @@
   padding: 0;
 }
 
-.column:first-child, .column:last-child {
-  margin-top: calc(-1 * var(--spacing-md));
-  width: 26%;
+.column > ul > li {
+  display: none;
 }
 
-.column:first-child {
-  padding-right: var(--spacing-md);
+.column > ul > li:first-child {
+  display: block;
 }
 
-.column:first-child > ul > li {
-  margin-right: var(--spacing-sm);
-}
+@media (min-width: 1024px) {
+  .inner {
+    display: flex;
+    padding-top: var(--spacing-xl);
+  }
 
-.column:first-child > ul > li:first-child, .column:first-child > ul > li:last-child {
-  margin-left: var(--spacing-md);
-  margin-right: 0;
-}
+  .column {
+    width: 46%;
+  }
 
-.column:last-child {
-  padding-left: var(--spacing-md);
-}
+  .column:first-child, .column:last-child {
+    margin-top: calc(-1 * var(--spacing-md));
+    width: 26%;
+  }
 
-.column:last-child > ul > li {
-  margin-left: var(--spacing-sm);
-}
+  .column:first-child {
+    padding-right: var(--spacing-md);
+  }
 
-.column:last-child > ul > li:first-child, .column:last-child > ul > li:last-child {
-  margin-left: 0;
-  margin-right: var(--spacing-md);
+  .column > ul > li {
+    display: block;
+  }
+
+  .column:first-child > ul > li {
+    margin-right: var(--spacing-sm);
+  }
+
+  .column:first-child > ul > li:first-child, .column:first-child > ul > li:last-child {
+    margin-left: var(--spacing-md);
+    margin-right: 0;
+  }
+
+  .column:last-child {
+    padding-left: var(--spacing-md);
+  }
+
+  .column:last-child > ul > li {
+    margin-left: var(--spacing-sm);
+  }
+
+  .column:last-child > ul > li:first-child, .column:last-child > ul > li:last-child {
+    margin-left: 0;
+    margin-right: var(--spacing-md);
+  }
 }
 
 .heading {
   color: var(--text-highlight);
   display: inline-block;
-  font-size: 3.5rem;
   line-height: 1.5;
+  margin-bottom: 0;
   text-transform: uppercase;
 }
 
@@ -92,11 +115,21 @@
 .subheading {
   --spacing: .1rem;
   color: var(--text-primary);
-  font-size: 2.25rem;
   letter-spacing: var(--spacing);
   margin-right: calc(-1 * var(--spacing));
 }
 
 .subheading > span {
   color: var(--text-highlight);
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 3.5rem;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .subheading {
+    font-size: 2.25rem;
+  }
 }
