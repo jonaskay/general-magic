@@ -1,7 +1,14 @@
-.info {
-  display: flex
+.description {
+  display: none;
 }
 
-.description {
-  margin-left: var(--spacing-sm);
+@media (min-width: 1024px) {
+  .info {
+    display: flex
+  }
+
+  .description {
+    display: block;
+    margin-left: var(--spacing-sm);
+  }
 }

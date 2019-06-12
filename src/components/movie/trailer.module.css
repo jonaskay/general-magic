@@ -1,0 +1,10 @@
+.iframe {
+  margin: 0;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .iframe {
+    flex: 0 0 560px;
+  }
+}

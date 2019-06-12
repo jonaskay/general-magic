@@ -1,12 +1,15 @@
 .instructions {
-  width: var(--width-text);
-}
-
-.instructions > p:first-child {
-  font-size: var(--text-lg);
+  max-width: var(--width-text);
+  width: 100%;
 }
 
 .instructions > p:last-child {
   color: var(--text-secondary);
   font-size: var(--text-sm);
+}
+
+@media (min-width: 640px) {
+  .instructions > p:first-child {
+    font-size: var(--text-lg);
+  }
 }

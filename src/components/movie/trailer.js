@@ -1,12 +1,12 @@
 import React from "react"
 
-const width = 560
+import trailerStyles from "./trailer.module.css"
 
 const Trailer = () => (
   <iframe
     title="Official Trailer for General Magic"
-    style={{ flex: `0 0 ${width}px` }}
-    width={width}
+    className={trailerStyles.iframe}
+    width="560"
     height="315"
     src="https://www.youtube-nocookie.com/embed/uTdyb-RWNKo?rel=0"
     frameborder="0"

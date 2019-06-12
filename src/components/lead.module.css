@@ -1,15 +1,21 @@
 .lead {
   margin: 0 auto;
+  max-width: 500px;
   text-align: center;
-  width: 500px;
+  width: 100%;
 }
 
 .lead > p:first-child {
-  font-size: var(--text-lg);
   font-weight: var(--font-bold);
 }
 
 .lead > p:last-child {
-  color: var(--gray-4);
+  color: var(--text-secondary);
   font-size: var(--text-sm);
+}
+
+@media (min-width: 640px) {
+  .lead > p:first-child {
+    font-size: var(--text-lg);
+  }
 }
