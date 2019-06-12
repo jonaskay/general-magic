@@ -1,0 +1,14 @@
+@import "../css/variables.css";
+
+.blockquote {
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  margin: var(--spacing-xs) 0 0;
+}
+
+.author {
+  color: var(--text-hint);
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  text-decoration: none;
+}
