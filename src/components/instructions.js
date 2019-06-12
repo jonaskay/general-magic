@@ -7,7 +7,7 @@ const Instructions = () => (
   <div className={instructionsStyles.instructions}>
     <p>
       Korjaamo screening is a private event. We are bringing the documentary to
-      Finland for <strong>techies, innovators, and change makers</strong> of
+      Finland for the <strong>techies, innovators, and change makers</strong> of
       Helsinki.
     </p>
     <p>
