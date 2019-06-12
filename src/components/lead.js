@@ -7,7 +7,7 @@ const Lead = () => (
   <section className={leadStyles.lead}>
     <p>
       Join us at Korjaamo in August for a special screening of the widely
-      acclaimed documentary General Magic. This is a one-time-only event that
+      acclaimed documentary General Magic. This is an one-time-only event that
       you don't want to miss. Get ready for a night of inspiration and wonder!
     </p>
     <p>
