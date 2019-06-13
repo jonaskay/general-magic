@@ -13,7 +13,15 @@
 }
 
 .partnersInner {
+  text-align: center;
   width: 200px;
+}
+
+@media (max-width: 1023px) {
+  .section, .partnersInner {
+    margin: 0 auto;
+    max-width: 560px;
+  }
 }
 
 @media (min-width: 640px) {
@@ -36,6 +44,5 @@
 
   .partnersInner {
     display: inline-block;
-    text-align: center;
   }
 }

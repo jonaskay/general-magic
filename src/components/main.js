@@ -12,12 +12,16 @@ const Main = () => (
     <Section>
       <Lead />
     </Section>
-    <Section title="Trailer">
-      <MovieInfo />
-    </Section>
-    <Section title="How to attend">
-      <Instructions />
-    </Section>
+    <div className={mainStyles.section}>
+      <Section title="Trailer">
+        <MovieInfo />
+      </Section>
+    </div>
+    <div className={mainStyles.section}>
+      <Section title="How to attend">
+        <Instructions />
+      </Section>
+    </div>
     <div className={mainStyles.partnersOuter}>
       <div className={mainStyles.partnersInner}>
         <Section title="Partners">
