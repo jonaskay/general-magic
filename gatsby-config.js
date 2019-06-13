@@ -3,7 +3,7 @@ module.exports = {
     title: `General Magic in Helsinki`,
     location: "Korjaamo, August 2019",
     description: `General Magic, a widely acclaimed tech documentary, gets a private screening in Helsinki in August.`,
-    author: `@jonaskaypink`, // TODO: Change author
+    author: `@WunderdogSW`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
