@@ -48,11 +48,12 @@
   }
 
   .column {
+    padding-top: 2.5rem;
     width: 46%;
   }
 
   .column:first-child, .column:last-child {
-    margin-top: calc(-1 * var(--spacing-md));
+    padding-top: 0;
     width: 26%;
   }
 
