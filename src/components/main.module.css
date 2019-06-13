@@ -5,8 +5,7 @@
   margin: 0 auto;
   margin-top: calc(-1 * var(--spacing-xl));
   max-width: var(--width-default);
-  padding: var(--spacing-sm);
-  padding-top: 0;
+  padding: 0 var(--spacing-sm) 4rem;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -26,15 +25,15 @@
 
 @media (min-width: 640px) {
   .main {
-    padding: var(--spacing-md);
-    padding-top: 0;
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
   }
 }
 
 @media (min-width: 1024px) {
   .main {
-    padding: var(--spacing-lg);
-    padding-top: 0;
+    padding-left: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
   }
 
   .partnersOuter {

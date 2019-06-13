@@ -1,6 +1,27 @@
 .footer {
+  bottom: 0;
   color: var(--text-secondary);
   font-size: var(--text-sm);
-  padding: var(--spacing-md);
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.image::after {
+  background: linear-gradient(rgba(33,37,41,1), rgba(33,37,41,.5));
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.copyright {
+  bottom: var(--spacing-md);
+  left: var(--spacing-md);
+  position: absolute;
+  right: var(--spacing-md);
   text-align: center;
 }

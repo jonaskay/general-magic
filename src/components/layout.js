@@ -12,7 +12,7 @@ import "./layout.css"
 import Footer from "./footer"
 
 const Layout = ({ children }) => (
-  <div>
+  <div style={{ position: "relative" }}>
     {children}
     <Footer />
   </div>
