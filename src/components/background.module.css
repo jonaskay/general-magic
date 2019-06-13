@@ -5,8 +5,3 @@
   right: 0;
   top: 0;
 }
-
-.background > img {
-  object-fit: cover !important;
-  object-position: 0% 0% !important;
-}

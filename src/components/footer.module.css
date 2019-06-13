@@ -8,8 +8,12 @@
   width: 100%;
 }
 
+.image {
+  height: 500px;
+}
+
 .image::after {
-  background: linear-gradient(rgba(33,37,41,1), rgba(33,37,41,.5));
+  background: linear-gradient(rgba(33,37,41,1), rgba(33,37,41,.25));
   bottom: 0;
   content: "";
   left: 0;
