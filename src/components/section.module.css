@@ -1,9 +1,9 @@
 .section {
-  margin: var(--spacing-lg) 0;
+  margin: 0 0 var(--spacing-lg);
 }
 
 @media (min-width: 1024px) {
   .section {
-    margin: var(--spacing-xl) 0;
+    margin: 0 0 var(--spacing-xl);
   }
 }

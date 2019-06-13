@@ -12,6 +12,10 @@
   z-index: 1;
 }
 
+.partnersInner {
+  width: 200px;
+}
+
 @media (min-width: 640px) {
   .main {
     padding: var(--spacing-md);
@@ -24,20 +28,14 @@
     padding: var(--spacing-lg);
     padding-top: 0;
   }
-}
 
-.lead {
-  margin: 0 auto;
-  text-align: center;
-  width: var(--width);
-}
+  .partnersOuter {
+    margin-top: -8rem;
+    text-align: right;
+  }
 
-.lead > p:first-child {
-  font-size: var(--text-lg);
-  font-weight: var(--font-bold);
-}
-
-.lead > p:last-child {
-  color: var(--gray-4);
-  font-size: var(--text-sm);
+  .partnersInner {
+    display: inline-block;
+    text-align: center;
+  }
 }
