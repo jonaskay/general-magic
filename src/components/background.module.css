@@ -5,3 +5,13 @@
   right: 0;
   top: 0;
 }
+
+.background::after {
+  background: linear-gradient(rgba(33,37,41,.25), rgba(33,37,41,1));
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
