@@ -16,6 +16,10 @@
   width: 200px;
 }
 
+.partner {
+  margin-bottom: var(--spacing-sm);
+}
+
 @media (max-width: 1023px) {
   .section, .partnersInner {
     margin: 0 auto;

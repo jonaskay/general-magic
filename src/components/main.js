@@ -6,6 +6,7 @@ import Section from "./section"
 import MovieInfo from "./movie/info"
 import Instructions from "./instructions"
 import Wunderdog from "./partners/wunderdog"
+import Vincit from "./partners/vincit"
 
 const Main = () => (
   <main className={mainStyles.main}>
@@ -25,7 +26,12 @@ const Main = () => (
     <div className={mainStyles.partnersOuter}>
       <div className={mainStyles.partnersInner}>
         <Section title="Partners">
-          <Wunderdog />
+          <div className={mainStyles.partner}>
+            <Wunderdog />
+          </div>
+          <div className={mainStyles.partner}>
+            <Vincit />
+          </div>
         </Section>
       </div>
     </div>
