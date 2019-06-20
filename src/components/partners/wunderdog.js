@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+
+import Logo from "./logo"
 
 const Wunderdog = () => (
   <StaticQuery
@@ -16,9 +17,10 @@ const Wunderdog = () => (
       }
     `}
     render={data => (
-      <a href="https://wunder.dog/">
-        <Img fluid={data.logoImage.childImageSharp.fluid} />
-      </a>
+      <Logo
+        fluid={data.logoImage.childImageSharp.fluid}
+        url="https://wunder.dog/"
+      />
     )}
   />
 )
