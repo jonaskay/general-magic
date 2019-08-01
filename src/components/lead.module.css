@@ -3,15 +3,7 @@
   max-width: 500px;
   text-align: center;
   width: 100%;
-}
-
-.lead > p:first-child {
-  font-weight: var(--font-bold);
-}
-
-.lead > p:last-child {
-  color: var(--text-secondary);
-  font-size: var(--text-sm);
+  color:var(--text-primary);
 }
 
 @media (min-width: 640px) {
