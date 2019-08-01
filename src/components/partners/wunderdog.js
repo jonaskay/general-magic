@@ -7,9 +7,9 @@ const Wunderdog = () => (
   <StaticQuery
     query={graphql`
       query {
-        logoImage: file(relativePath: { eq: "wunderdog.jpeg" }) {
+        logoImage: file(relativePath: { eq: "wunderdog_white.png" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 200) {
               ...GatsbyImageSharpFluid
             }
           }

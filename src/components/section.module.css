@@ -1,9 +1,21 @@
 .section {
   margin: 0 0 var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--section-width);
+  padding: 20px 0;
+  margin: 0 auto;
 }
 
-@media (min-width: 1024px) {
+.header {
+  font-weight: normal;
+}
+
+@media (max-width: 560px) {
   .section {
-    margin: 0 0 var(--spacing-xl);
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
   }
 }

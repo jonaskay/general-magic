@@ -13,28 +13,25 @@ const Main = () => (
     <Section>
       <Lead />
     </Section>
-    <div className={mainStyles.section}>
-      <Section title="Trailer">
-        <MovieInfo />
-      </Section>
-    </div>
-    <div className={mainStyles.section}>
-      <Section title="How to attend">
-        <Instructions />
-      </Section>
-    </div>
-    <div className={mainStyles.partnersOuter}>
-      <div className={mainStyles.partnersInner}>
-        <Section title="Partners">
-          <div className={mainStyles.partner}>
-            <Wunderdog />
-          </div>
-          <div className={mainStyles.partner}>
-            <Vincit />
-          </div>
-        </Section>
+
+    <Section>
+      <MovieInfo />
+    </Section>
+
+    <Section title="How to attend?">
+      <Instructions />
+    </Section>
+
+    <Section title="In collaboration with">
+      <div className={mainStyles.logos}>
+        <div className={mainStyles.logoWD}>
+          <Wunderdog />
+        </div>
+        <div className={mainStyles.logo}>
+          <Vincit />
+        </div>
       </div>
-    </div>
+    </Section>
   </main>
 )
 

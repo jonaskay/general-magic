@@ -4,19 +4,17 @@
   position: relative;
   text-align: center;
   width: 100%;
+  background-color: #0A2246;
 }
 
-.fade {
-  background: linear-gradient(transparent, var(--background));
-  height: calc(2 * var(--spacing-xl));
-  position: relative;
-  z-index: 1;
+.image {
+
 }
 
 .inner {
   margin: 0 auto;
   max-width: var(--width-default);
-  padding: var(--spacing-md);
+  padding: var(--spacing-xs);
   padding-bottom: 0;
   position: relative;
   width: 100%;
@@ -25,6 +23,7 @@
 
 .column {
   box-sizing: border-box;
+  margin: auto;
 }
 
 .column > ul {
@@ -49,42 +48,11 @@
 
   .column {
     padding-top: 2.5rem;
-    width: 46%;
-  }
-
-  .column:first-child, .column:last-child {
-    padding-top: 0;
-    width: 26%;
-  }
-
-  .column:first-child {
-    padding-right: var(--spacing-md);
+    width: 100%;
   }
 
   .column > ul > li {
     display: block;
-  }
-
-  .column:first-child > ul > li {
-    margin-right: var(--spacing-sm);
-  }
-
-  .column:first-child > ul > li:first-child, .column:first-child > ul > li:last-child {
-    margin-left: var(--spacing-md);
-    margin-right: 0;
-  }
-
-  .column:last-child {
-    padding-left: var(--spacing-md);
-  }
-
-  .column:last-child > ul > li {
-    margin-left: var(--spacing-sm);
-  }
-
-  .column:last-child > ul > li:first-child, .column:last-child > ul > li:last-child {
-    margin-left: 0;
-    margin-right: var(--spacing-md);
   }
 }
 

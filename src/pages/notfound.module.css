@@ -1,0 +1,14 @@
+.content {
+    width: var(--section-width);
+    margin: 0 auto;
+    padding: 72px 0;
+    text-align: center;
+}
+
+.content > p {
+    color: var(--text-secondary);
+}
+
+.content > a {
+    color: var(--text-secondary);
+}

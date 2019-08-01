@@ -6,15 +6,17 @@
   --width-default: 1024px;
   --width-text: 500px;
 
+  --section-width: 560px;
+
   --spacing-xs: .5rem;
   --spacing-sm: 1rem;
   --spacing-md: 2rem;
   --spacing-lg: 3rem;
   --spacing-xl: 4rem;
 
-  --background: #212529;
+  --background: #0a2246;
 
-  --text-primary: #f8f9fa;
+  --text-primary: #f8c73f;
   --text-secondary: #ced4da;
   --text-hint: #adb5bd;
   --text-highlight: #fcc419;

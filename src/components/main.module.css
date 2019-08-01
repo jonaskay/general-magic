@@ -3,27 +3,46 @@
 .main {
   line-height: 1.5;
   margin: 0 auto;
-  margin-top: calc(-1 * var(--spacing-xl));
   max-width: var(--width-default);
   padding: 0 var(--spacing-sm) 4rem;
   position: relative;
   width: 100%;
   z-index: 1;
+  background-color: #0A2246;
 }
 
-.partnersInner {
-  text-align: center;
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  padding-top: 20px;
+}
+
+.logoWD {
+  width: 150px;
+}
+
+.logo {
   width: 200px;
 }
 
-.partner {
-  margin-bottom: var(--spacing-sm);
+@media (max-width: 560px) {
+  .logos {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .logo {
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 1023px) {
-  .section, .partnersInner {
+  .section {
     margin: 0 auto;
-    max-width: 560px;
+    width: var(--section-width);
   }
 }
 
@@ -38,14 +57,5 @@
   .main {
     padding-left: var(--spacing-lg);
     padding-right: var(--spacing-lg);
-  }
-
-  .partnersOuter {
-    margin-top: -8rem;
-    text-align: right;
-  }
-
-  .partnersInner {
-    display: inline-block;
   }
 }

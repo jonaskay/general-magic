@@ -3,13 +3,8 @@
   width: 100%;
 }
 
-.instructions > p:last-child {
+.instructions > p {
   color: var(--text-secondary);
-  font-size: var(--text-sm);
+  font-size: var(--text-md);
 }
 
-@media (min-width: 640px) {
-  .instructions > p:first-child {
-    font-size: var(--text-lg);
-  }
-}

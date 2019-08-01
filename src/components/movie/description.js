@@ -5,8 +5,7 @@ import descriptionStyles from "./description.module.css"
 const domain = "www.generalmagicthemovie.com"
 
 const Description = () => (
-  <aside className={descriptionStyles.aside}>
-    <h4>Official description</h4>
+  <div className={descriptionStyles.info}>
     <p>
       Multi-award winning documentary General Magic is the untold tale of how a
       great vision and epic failure changed the world.
@@ -24,9 +23,9 @@ const Description = () => (
       change the lives of billions.
     </p>
     <p>
-      Find out more at <a href={`https://${domain}/`}>{domain}</a>
+      Find out more at <a className={descriptionStyles.link} href={`https://${domain}/`}>{domain}</a>
     </p>
-  </aside>
+  </div>
 )
 
 export default Description
