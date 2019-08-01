@@ -6,7 +6,9 @@ import Description from "./description"
 
 const Info = () => (
   <div className={infoStyles.info}>
-    <Trailer />
+    <div className={infoStyles.trailer}>
+      <Trailer />
+    </div>
     <div className={infoStyles.description}>
       <Description />
     </div>

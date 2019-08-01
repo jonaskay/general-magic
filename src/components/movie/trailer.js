@@ -7,11 +7,11 @@ const Trailer = () => (
     title="Official Trailer for General Magic"
     className={trailerStyles.iframe}
     width="560"
-    height="315"
+    height="313"
     src="https://www.youtube-nocookie.com/embed/uTdyb-RWNKo?rel=0"
-    frameborder="0"
+    frameBorder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
+    allowFullScreen
   ></iframe>
 )
 
