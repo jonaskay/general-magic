@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import notFoundModule from "./notFound.module.css"
+import notFoundModule from "./not-found.module.css"
 
 const NotFoundPage = () => (
   <Layout>
